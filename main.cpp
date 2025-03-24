@@ -11,7 +11,10 @@ private:
 public:
 //default constructor
 ElectricField(){
-	E = new double[3]{0.0,0.0,0.0};
+	E = new double[3];
+	E[0] = 0.0;
+	E[1] =	0.0;
+	E[2] = 0.0;
 	}
 
 //parameritized constructor
@@ -59,7 +62,10 @@ private:
 public:
 //default constructor
 MagneticField(){
-	M = new double[3]{0.0,0.0,0.0};
+	M = new double[3];
+	M[0] = 0.0;
+	M[1] =	0.0;
+	M[2] = 0.0;
 	}
 
 //parameritized constructor
